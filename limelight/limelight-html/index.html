@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Proyecto Contabilidad</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html"><img src="Logo.png" alt="index.html" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-10 offset-md-1">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="index.html">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#about">Flujo de Efectivo</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#service">Reciclaje</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#gallery">Maquinaria</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#testimonial"> Integrantes</a>
+                              </li>
+                              <li class="nav-item">
+                                 <!--<a class="nav-link" href="contact.html">Contact Us</a>-->
+                              </li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner_main">
+         <div id="myCarousel" class="carousel slide banner" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption relative">
+                        <div class="row">
+                           <div class="col-md-7 offset-md-5">
+                              <div class="text-bg">
+                                 <h1> Producción <br>Sostenible</h1>
+                                 <span>Nuestra empresa transforma plástico reciclado en nuevos productos útiles, gracias a una planta con tecnología avanzada.</span>
+                                 <!--<a class="read_more" href="Javascript:void(0)">Read More</a>-->
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption relative">
+                        <div class="row">
+                           <div class="col-md-7 offset-md-5">
+                              <div class="text-bg">
+                                 <h1> Recolección y <br>Procesamiento</h1>
+                                 <span>Reciclamos plásticos para obtener pellets que luego usamos para crear nuevos productos, reduciendo el impacto ambiental.</span>
+                                 <!--<a class="read_more" href="Javascript:void(0)">Read More</a>-->
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption relative">
+                        <div class="row">
+                           <div class="col-md-7 offset-md-5">
+                              <div class="text-bg">
+                                 <h1> Formación <br>de Material</h1>
+                                 <span>Los gránulos de plástico se calientan y moldean en una extrusora para crear tubos, láminas o filamentos, listos para convertirse en productos finales.</span>
+                                 <!--<a class="read_more" href="Javascript:void(0)">Read More</a>-->
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            <span class="sr-only">Previo</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <span class="sr-only">Siguiente</span>
+            </a>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- about -->
+      <div id="about" class="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="titlepage">
+                     <h2>Flujo de <span class="green">Efectivo</span></h2>
+                     <ul>
+                        <li><strong>Operativas: </strong>Relacionadas con la producción y venta de productos plásticos, incluyendo ingresos por ventas y gastos de producción y operación.</li>
+                        <li><strong>Inversión: </strong>Involucra la compra y venta de activos fijos (maquinaria, propiedades), así como inversiones a largo plazo.</li>
+                        <li><strong>Financiación: </strong>Se refiere a la obtención y devolución de fondos, como préstamos y emisión de acciones.</li>
+                     </ul>
+                     <!--<a class="read_more" href="Javascript:void(0)"> Read More</a>-->
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="about_img">
+                     <figure><img src="Flujo de efectivo.png" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end about -->
+      <!--  service -->
+      <div id="service" class="service">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Proceso de <span class="green">Reciclaje</span></h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="row">
+                     <div class="col-md-4 col-sm-6">
+                        <div class="service_box">
+                           <i><img src="1.png" alt=""/></i>
+                           <h3>Recolección de materia</h3>
+                           <p>Comprando a las personas <br>que recolectan el plasticos.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4 offset-md-1 col-sm-6">
+                        <div class="service_box">
+                           <i><img src="2.png" alt=""/></i>
+                           <h3>Transformación de la materia</h3>
+                           <p>Se realiza por medio de la <br>recicladora industrial.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4 offset-md-3 col-sm-6 mar_top">
+                        <div class="service_box">
+                           <i><img src="3.png" alt=""/></i>
+                           <h3>Creación de materia prima</h3>
+                           <p>Se reduce a pequeñas bolas <br>de plastico para producir.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4 offset-md-1 col-sm-6 mar_top">
+                        <div class="service_box">
+                           <i><img src="4.png" alt=""/></i>
+                           <h3>De materia a producto final</h3>
+                           <p>Se traslada a producción la <br>la materia prima para creación <br>de producto.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-12">
+                        <!--<a class="read_more" href="Javascript:void(0)"> Read More</a>-->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end service -->
+      <!-- gallery -->
+      <div id="gallery"  class="gallery">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Maquinaria <span class="green">Industrial</span></h2>
+                     <p>En este apartado veremos las principales maquinarias utilizadas para la creación de los productos.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4 col-sm-6">
+                  <div class="gallery_text">
+                     <div class="galleryh3">
+                        <h3>Trenzadora Industrial <br> Q.20,000.00</h3>
+                        <p>Se produce de acuerdo <br>a los requisitos del cliente y <br>puede fabricar diferentes <br>productos de cuerda redonda.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6">
+                  <div class="gallery_img">
+                     <figure><img src="9s.png" alt=""/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6">
+                  <div class="gallery_img">
+                     <figure><img src="3s.png" alt=""/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6">
+                  <div class="gallery_img">
+                     <figure><img src="5s.png" alt=""/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6">
+                  <div class="gallery_img">
+                     <figure><img src="1s.png" alt=""/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6">
+                  <div class="gallery_text">
+                     <div class="galleryh3">
+                        <h3>Corrugadora Industrial <br> Q.120,000.00</h3>
+                        <p>Maquina dedicada a <br>crear flexitubo de una forma <br>autonoma. 
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6">
+                  <div class="gallery_text">
+                     <div class="galleryh3">
+                        <h3>Extrusora Industrial <br> Q.140,000.00</h3>
+                        <p>Maquina dedicada a la <br>creación de nylon para la <br>fabricacion de bolsas.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6">
+                  <div class="gallery_img">
+                     <figure><img src="8s.png" alt=""/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6">
+                  <div class="gallery_img">
+                     <figure><img src="2s.png" alt=""/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end gallery -->
+      <!-- design -->
+      <div class="design">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-md-5">
+                  <div id="design" class="carousel slide banner_design" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#design" data-slide-to="0" class="active"></li>
+                        <li data-target="#design" data-slide-to="1"></li>
+                        <li data-target="#design" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="text_de">
+                                          <div class="titlepage">
+                                             <h2><span class="green">Misión</span></h2>
+                                          </div>
+                                          <p>Somos una empresa comprometida con el cuidado del medio ambiente, que transforma residuos en productos útiles y duraderos, generando un impacto positivo en nuestra comunidad y en el planeta.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="text_de">
+                                          <div class="titlepage">
+                                             <h2><span class="green">Visión</span></h2>
+                                          </div>
+                                          <p>Ser líderes en la industria del reciclaje, ofreciendo soluciones innovadoras y sostenibles que promuevan una economía circular y un futuro más limpio.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="text_de">
+                                          <div class="titlepage">
+                                             <h2><span class="green">Valores</span></h2>
+                                          </div>
+                                          <p>Sostenibilidad<br>Innovación<br>Calidad<br>Compromiso Social<br>Trabajo en Equipo</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#design" role="button" data-slide="prev">
+                     <i class="fa fa-angle-left" aria-hidden="true"></i>
+                     <span class="sr-only">Previo</span>
+                     </a>
+                     <a class="carousel-control-next" href="#design" role="button" data-slide="next">
+                     <i class="fa fa-angle-right" aria-hidden="true"></i>
+                     <span class="sr-only">Siguiente</span>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-md-7 pad_roght0">
+                  <div class="design_img">
+                     <figure><img src="Reciclaje.png" alt=""/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end design -->
+      <!-- latest news -->
+      <div  class="latest_news">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Leer <span class="green">Beneficios</span></h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4 offset-md-2">
+                  <div id="new" class="news_box">
+                     <div class="news_img">
+                        <figure><img src="Hilo.png" alt=""/></figure>
+                     </div>
+                     <div class="news_room">
+                        <span>Posteado por Shandel</span>
+                        <ul>
+                           <!--<li><a href="Javascript:void(0)">Like <i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                           <li><a href="Javascript:void(0)">Comment <i class="fa fa-comments-o" aria-hidden="true"></i></a></li>
+                           <li><a href="Javascript:void(0)">Share <i class="fa fa-share-alt" aria-hidden="true"></i></a></li>-->
+                        </ul>
+                        <h3>El beneficio del Hilo</h3>
+                        <p>El hilo resistente garantiza prendas duraderas y de alta calidad. ¡Invierte en moda sostenible y de larga vida! #hilo #moda  </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 ">
+                  <div id="new" class="news_box">
+                     <div class="news_img mr_le">
+                        <figure><img src="Reciclaje1.png" alt=""/></figure>
+                     </div>
+                     <div class="news_room">
+                        <span>Posteado por Juan Carlos</span>
+                        <ul>
+                           <!--<li><a href="Javascript:void(0)">Like <i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                           <li><a href="Javascript:void(0)">Comment <i class="fa fa-comments-o" aria-hidden="true"></i></a></li>
+                           <li><a href="Javascript:void(0)">Share <i class="fa fa-share-alt" aria-hidden="true"></i></a></li>-->
+                        </ul>
+                        <h3>El beneficio del Reciclaje</h3>
+                        <p>Reciclar reduce la contaminación, ahorra energía y conserva recursos naturales. ¡Únete al cambio y recicla hoy! #reciclaje #sostenibilidad  </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <!--<a class="read_more" href="Javascript:void(0)"> Read More</a>-->
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end latest news -->
+      <!-- testimonial -->
+      <div id="testimonial" class="Testimonial">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-md-8 pad_left0">
+                  <div id="testimon" class="carousel slide banner_testimonial" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#testimon" data-slide-to="0" class="active"></li>
+                        <li data-target="#testimon" data-slide-to="1"></li>
+                        <li data-target="#testimon" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                                 <div class="row">
+                                    <!--<div class="col-md-6">
+                                       <div class="text_humai">
+                                          <i><img src="images/tett1.png" alt="#"/></i>
+                                          <span>Vilma</span>
+                                          <p>T suffered alteration in some form, by injected humouThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou</p>
+                                       </div>
+                                    </div>-->
+                                    <div class="col-md-6">
+                                       <div class="text_humai">
+                                          <i><img src="David.png" alt="#"/></i>
+                                          <span>Eduardo David Santos González <br> 5190 - 24 - 3591</span>
+                                          <p>Para Paisanos es importante conservar la vitdalidad del medio ambiente lo ayudamos a preservarlo por medio del reciclaje y la reutilización del producto en mal estado o devolución del mismo.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="text_humai">
+                                          <i><img src="Bryan.png" alt="#"/></i>
+                                          <span>Bryan Estivenson Alexander Calderon Donis <br> 5190 - 24 - 64</span>
+                                          <p>Paisano encontró la manera de crecer y generar ganancias de la mejor forma posible, ayudando a su comunidad y creando valor a partir de algo que antes se consideraba basura.</p>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="text_humai">
+                                          <i><img src="Juanca.png" alt="#"/></i>
+                                          <span>Juan Carlos Gómez Hernández <br> 5190 - 24 - 5631</span>
+                                          <p>El reciclaje es de vital importancia, siendo un sector productivo muy funcional a largo plazo, siendo que se utiliza en muchísimas zonas, desde piezas de equipos hasta como recipientes como es el caso de Paisano.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="text_humai">
+                                          <i><img src="Shandel.png" alt="#"/></i>
+                                          <span>Shandel Noe Ortiz Morales <br> 5190 - 23 - 15750</span>
+                                          <p>Esta empresa es una de las del mediano porcentaje que se dedica a poder reducir la contaminación y el impacto que tiene el mismo sobre el planeta tierra. Esto puede dar valor y peso al nombre de la empresa, lo que puede llegar también a generar reconocimientos nacionales e internacionales.</p>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="text_humai">
+                                          <i><img src="Byron.jpg" alt="#"/></i>
+                                          <span>Bayron Josué García Acalón <br> 5190 - 24 - 5386</span>
+                                          <p>El objetivo es reducir la contaminación y el daño al medio ambiente, tanto terrestre como marino, causado por la producción y el desecho de productos.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#testimon" role="button" data-slide="prev">
+                     <i class="fa fa-angle-left" aria-hidden="true"></i>
+                     <span class="sr-only">Previo</span>
+                     </a>
+                     <a class="carousel-control-next" href="#testimon" role="button" data-slide="next">
+                     <i class="fa fa-angle-right" aria-hidden="true"></i>
+                     <span class="sr-only">Siguiente</span>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-md-4 ">
+                  <div class="titlepage">
+                     <h2>Integrantes</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end design -->
+      <!--  contact 
+      <div id="contact" class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Contact Us</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 ">
+                           <input class="contactus" placeholder="Name" type="type" name="Name"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                        </div>
+                        <div class="col-md-12">
+                           <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message</textarea>
+                        </div>
+                        <div class="col-md-12">
+                           <button class="send_btn">Send</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-md-6">
+                  <div class="map_main">
+                     <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="345" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+       end contact -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class=" col-md-3 col-sm-6">
+                     <!--<ul class="social_icon">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     </ul>-->
+                     <h3>Valores</h3>
+                     <p class="variat pad_roght2">Sostenibilidad<br>Innovación<br>Calidad<br>Compromiso Social<br>Trabajo en Equipo
+                     </p>
+                  </div>
+                  <div class=" col-md-3 col-sm-6">
+                     <h3>Eslogan</h3>
+                     <p  class="variat pad_roght2">Paisanos: Reciclamos, transformamos y creamos.
+                     </p>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                     <h3>Navegabilidad</h3>
+                     <ul class="link_menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#about">Flujo de Efectivo</a></li>
+                        <li><a href="#service">Reciclaje</a></li>
+                        <li><a href="#gallery">Maquinaria</a></li>
+                        <li><a href="#testimonial">Integrantes</a></li>
+                        <!--<li><a href="contact.html">Contact Us</a></li>-->
+                     </ul>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                     <h3>Filosofía</h3>
+                     <p  class="variat">En Paisanos, transformamos residuos en recursos, tejiendo un futuro sostenible.
+                     </p>
+                  </div>
+                  <div class="col-md-6 offset-md-6">
+                     <!--<form id="hkh" class="bottom_form">
+                        <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                        <button class="sub_btn">subscribe</button>-->
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-10 offset-md-1">
+                        <p>Sitio con fines educativos</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
